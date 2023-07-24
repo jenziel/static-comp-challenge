@@ -4,38 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Ellen Ullman</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css'>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <aside>
         <div class="icon-box">
-            <h2>icon</h2>
+            <div class="circle"></div>
+            <div class="username">
+                <p class="menu-text">Ellen Ullman</p>
+                <img src="./assets/down-arrow.png" alt-text="drop down arrow" id="down-arrow">
+            </div>
         </div>
         <div class="nav-list main-menu">
-            <h2>main</h2>
+            <p class="menu-text">Main</p>
+            <div class="menu-list">
+                <p class="list-item">HOME</p>
+                <p class="list-item">JOBS</p>
+                <p class="list-item">RESUME</p>
+                <p class="list-item">TASKS</p>
+                <p class="list-item">CALENDAR</p>
+            </div>
         </div>
-        <div class="nav-list admin-menu">
-            <h2>admin</h2>
+        <div class="nav-list bib-menu">
+            <p class="menu-text">Writing</p>
+            <div class="menu-list">
+                <p class="list-item">BOOKS</p>
+                <p class="list-item">NOVELS</p>
+                <p class="list-item">ESSAYS</p>
+                <p class="list-item">SUBSTACK</p>
+            </div>
         </div>
         <div class="nav-list category-cb">
-            <h2>categories</h2>
+            <p class="menu-text">CATEGORIES</p>
+            <div class="menu-list">
+                <label class="list-item">
+                    <input type="checkbox" name="checkbox1"> Administrative
+                </label>
+                <label class="list-item">
+                    <input type="checkbox" name="checkbox2"> Design
+                </label>
+                <label class="list-item">
+                    <input type="checkbox" name="checkbox3"> Executive
+                </label>
+                <label class="list-item">
+                    <input type="checkbox" name="checkbox3">
+                    Human Resources
+                </label>
         </div>
     </aside>
     <main>  
-        <section role="search">
-        <form action="#" method="get">
-            <fieldset>
-                <legend>Search this website:</legend>
-                <label for="s">
-                    <input type="search" name="s" id="s" placeholder="Search..." maxlength="200" />
-                </label>
-                <button type="submit" title="Search this website now">Submit</button>
-            </fieldset>
-        </form>
+        <section class="search-bar" role="search">
+            <form class="search-form">
+                <button type="button" class="menu-button">
+                    <div class="combined-menu">
+                        <img src="./assets/left-triangle.png" id="tiny-triangle">
+                        <img src="./assets/menu.png" class="search-icon">
+                    </div>
+                   
+                </button>
+                <input type="text" placeholder="Search for a job, task, or resume" name="search">
+                <button type="button">
+                    <img src="./assets/add-friend.png" class="search-icon">
+                </button>
+                <button type="button">
+                    <img src="./assets/timetable.png" id="schedule-icon">
+                </button>
+                <button type="button">
+                    <img src="./assets/3by3-square.png" class="search-icon">
+                </button>
+            </form>
     </section>
         <div class="top-pane">
-            <h2>person's profile</h2>
+            <h3>Computer Programmer</h3>
+            <p class="location">San Francisco</p>
         </div>
         <div class="lower-pane">
             <h2>there will be graphs here</h2>
