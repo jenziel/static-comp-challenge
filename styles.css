@@ -155,7 +155,7 @@ form.search-form button:hover {
   height: 8px;
   width: 8px;
 }
-#hamburger-menu {
+.search-icon {
   height: 20px;
   width: 20px;
 }
@@ -166,20 +166,12 @@ form.search-form button:hover {
   height: 40px;
   width: 40px;
 }
-#grid-icon {
-  height: 20px;
-  width: 20px;
-}
-#friend-icon {
-  height: 20px;
-  width: 20px;
-}
 #schedule-icon {
   height: 25px;
   width: 25px;
 }
 .top-pane {
-    height: 20%;
+    height: 25%;
     width: 100%;
     padding: 20px;
 }
