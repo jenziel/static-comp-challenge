@@ -7,11 +7,20 @@
   --light-turquoise: #8ccbcc;
   --bronze: #8ccbcc;
   --red: #c4483d;
+  --linux-gray: #A8A8A8;
+  --linux-green: #00FF00;
+  --linux-teal:#00FFFF; 
+  --linux-green2: #00A800;
+  --white: #FFFFFF;
+  --linux-blue: #00A8FF;
+  --linux-brown: #A85700;
+  --black: #000000;
+
 }
 
 body,
 html {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Hack', monospace;
   height: 100%;
   overflow: hidden;
 }
