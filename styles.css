@@ -88,6 +88,9 @@ aside {
     padding-left: 10px;
     padding-right: 10px;
 }
+.menu-title{
+  padding: 5px;
+}
 p.list-item {
   padding: 3px;
 }
@@ -174,7 +177,75 @@ form.search-form button:hover {
     height: 25%;
     width: 100%;
     padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+.box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.box1a {
+  display: flex;
+  flex-direction: column;
+}
+.box1b{
+  display: flex;
+  flex-direction: row;
+}
+
+.align-text-and-symbol {
+  display:flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+#pin {
+  height: 10px;
+  width: 10px;
+  margin-right: 3px;
+}
+.preview {
+  margin-left: 10px;
+  color: var(--light-gray)
+}
+.blue {
+  color: var(--red)
+}
+.small-icon {
+  height: 20px;
+  width: 20px;
+}
+.box1b > button {
+  border-radius: 50%; 
+  height: 40px;
+  width: 40px;
+  border: none;
+  margin:5px;
+}
+#status {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+  height: 40px;
+  width: 80px;
+  padding: 1px;
+}
+#green-circle {
+  color:#00A800;
+  font-size: xx-large;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 .lower-pane {
     height: 100%;
